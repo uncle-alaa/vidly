@@ -74,6 +74,7 @@ class Movies extends Component {
             onItemSelect={this.handleGenreSelect} /></div>
         <div className="col">
           <p> showing {filtered.length} movies </p>
+          <p> on master branche </p>
           <MoviesTable
             onDelete={this.handleDelete}
             onLike={this.handleLike}
