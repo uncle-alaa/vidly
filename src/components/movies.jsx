@@ -85,6 +85,7 @@ class Movies extends Component {
             onItemSelect={this.handleGenreSelect} /></div>
         <div className="col">
           <p> showing {totalCount} movies </p>
+          <p>testgit branch</p>
           <MoviesTable
             onDelete={this.handleDelete}
             onLike={this.handleLike}
